@@ -3,6 +3,7 @@ require './lib/player'
 require './lib/game'
 
 class NinjaBearCowboy < Sinatra::Base
+
   get '/' do
     erb :index
   end
