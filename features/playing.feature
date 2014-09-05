@@ -1,5 +1,5 @@
 Feature: Playing
-	In order to play Ninja Cowboy Bear
+	In order to play NinjaCowboyBear
 	As a player
 	I need to get two players
 
