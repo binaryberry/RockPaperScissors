@@ -2,7 +2,7 @@ require 'sinatra/base'
 require './lib/player'
 require './lib/game'
 
-class RockPaperScissors < Sinatra::Base
+class NinjaBearCowboy < Sinatra::Base
   get '/' do
     erb :index
   end
@@ -25,7 +25,7 @@ class RockPaperScissors < Sinatra::Base
   end
 
   def generate_computer
-  	choice = ["Rock","Paper","Scissors"].sample
+  	choice = ["Ninja","Bear","Cowboy"].sample
 
   	comp = Player.new("computer")
   	comp.picks = choice

@@ -1,5 +1,5 @@
 Feature: Playing
-	In order to play Rock Paper Scissors
+	In order to play Ninja Cowboy Bear
 	As a player
 	I need to get two players
 
@@ -12,5 +12,5 @@ Scenario: A player can register
 
 Scenario: A player is playing
 	Given I've registered to play
-	When I choose Paper
+	When I choose Bear
 	Then I should see "RESULTS"

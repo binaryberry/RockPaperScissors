@@ -18,6 +18,6 @@ Given(/^I've registered to play$/) do
   click_button "Play!"
 end
 
-When(/^I choose Paper$/) do
-  click_button('Paper')
+When(/^I choose Bear$/) do
+  click_button('Bear')
 end
