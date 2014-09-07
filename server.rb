@@ -1,7 +1,10 @@
 require 'sinatra/base'
 require './lib/player'
 require './lib/game'
-require 'newrelic_rpm'
+
+configure :production do
+  require 'newrelic_rpm'
+end
 
 class NinjaBearCowboy < Sinatra::Base
   get '/' do
