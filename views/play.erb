@@ -1,8 +1,8 @@
 <h1>Welcome <%= @player%></h1>
 
 <form action="/play" method="POST">
-	<button name="pick" value="Bear">Bear</button>
-	<button name="pick" value="Ninja">Ninja</button>
-	<button name="pick" value="Cowboy">Cowboy</button>
+	<button name="pick" value="Bear" class="btn btn-primary">Bear</button>
+	<button name="pick" value="Ninja" class="btn btn-primary">Ninja</button>
+	<button name="pick" value="Cowboy" class="btn btn-primary">Cowboy</button>
 	<input type="hidden" name="name" value=<%=@name%>>
 </form>
