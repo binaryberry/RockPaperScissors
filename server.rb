@@ -21,12 +21,16 @@ class NinjaBearCowboy < Sinatra::Base
   	erb :play	
   end
 
-  post "/play" do
+  post '/play' do
   	player = Player.new(params[:name])
   	player.picks = params[:pick]
   	computer = generate_computer
   	@game = Game.new(player, computer)
   	erb :outcome
+  end
+
+  get '/play' do
+    erb :play
   end
 
   def generate_computer
