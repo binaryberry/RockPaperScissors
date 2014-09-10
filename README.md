@@ -36,3 +36,6 @@ Write a little about what can be done with NewRelic in your own words and unders
 
 Add some CSS to the app to make it beautiful.
 
+What New Relic does
+=================
+New Relic provides a range of information about the performance of websites. It can measure the response time of the website, give a breakdown of response time per page, the memory usage, etc. and show the evolution of this performance over time.
