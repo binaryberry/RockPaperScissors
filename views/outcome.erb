@@ -1,6 +1,6 @@
 RESULTS:
 <% if @game.winner == "Draw" %>
- 	<h1> it was a draw </h1>
+ 	<h1> It was a draw. </h1>
  	<p> <form method="GET" action="/play">
 	<button type="submit" class="btn btn-primary">Let's play again!</button>
 	</form> </p>
@@ -10,7 +10,7 @@ RESULTS:
 	<button type="submit" class="btn btn-primary">Let's play again!</button>
 	</form> </p>
 <% else %>
-	<h1> You won, with <%= @game.winner.pick %> </h1>
+	<h1> You won with <%= @game.winner.pick %>. Congrats! </h1>
 	<p> <form method="GET" action="/play">
 	<button type="submit" class="btn btn-primary">Let's play again!</button>
 	</form> </p>
