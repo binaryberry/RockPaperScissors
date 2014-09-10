@@ -1,11 +1,12 @@
 
 	body {
 	    background-color: #b0c4de;
+  		text-align: center;
 	}
 
-
 	#page-wrap {
-     width: 400px;
-     height: 800px
-     margin: 0 auto;
+	position: absolute; 
+  	left: 50%; 
+  	width: 800px;
+  	margin-left: -400px;
 	}
