@@ -1,6 +1,12 @@
-require 'sinatra/base'
-require './lib/player'
-require './lib/game'
+var app = require('express')();
+var server = require('http').Server(app);
+
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(require('express-ejs-layouts'));
+app.use(require('express').static('public'));
+
+app.set('view engine', 'ejs');
 
 
 class NinjaBearCowboy < Sinatra::Base

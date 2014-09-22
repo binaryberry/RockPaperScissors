@@ -1,7 +1,7 @@
 RockPaperScissors
 =================
 
-Friday challenge at Makers Academy
+Friday challenge at Makers Academy - Now rewriting it using Node.JS instead of Sinatra
 
 Play with the [RockPaperScissor](http://fathomless-lake-5547.herokuapp.com/) App
 
