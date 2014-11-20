@@ -1,11 +1,21 @@
-RockPaperScissors
+CowboyNinjaBear
 =================
 
-Friday challenge at Makers Academy
+## What is it?
 
-Play with the [RockPaperScissor](http://fathomless-lake-5547.herokuapp.com/) App
+A Rock Paper Scissors-kind of game, but with cowboys, ninjas and bear. The computer randomly selects an option and the player must try to beat him. The app can be found [here](http://fathomless-lake-5547.herokuapp.com/), and the app at staging [there](http://rocky-coast-2876.herokuapp.com/).
 
-Here is the app at staging: http://rocky-coast-2876.herokuapp.com/
+
+##How was it built?
+
+By myself as a weekend challenge - base Javascript code was supplied by the coach. I then built the Sinatra server, and used CSS and bootstrap to make it look decent.
+
+As usual the project was TDDed, and we were encouraged to push to Heroku regularly, using a staging remote, which if the deployment was successful was followed by a push to a production remote.
+
+As part of the challenge I also installed the New Relic add on to see stats about my app.
+
+##The brief
+
 
 #### Task 1
 
@@ -40,4 +50,4 @@ What New Relic does
 =================
 New Relic provides a range of information about the performance of websites. It can measure the response time of the website, give a breakdown of response time per page, the memory usage, etc. and show the evolution of this performance over time.
 
-![image](https://github.com/babelberry/RockPaperScissors/blob/master/images/New%20Relic%20Screen%20capture.png)
+![image](https://github.com/binaryberry/RockPaperScissors/blob/master/NewRelic.png)
