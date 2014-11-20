@@ -8,7 +8,7 @@ A Rock Paper Scissors-kind of game, but with cowboys, ninjas and bear. The compu
 
 ##How was it built?
 
-By myself as a weekend challenge - base Javascript code was supplied by the coach. I then built the Sinatra server, and used CSS and bootstrap to make it look decent.
+By myself as a Makers Academy weekend challenge - base Javascript code was supplied by the coach. I then built the Sinatra server, and used CSS and bootstrap to make it look decent.
 
 As usual the project was TDDed, and we were encouraged to push to Heroku regularly, using a staging remote, which if the deployment was successful was followed by a push to a production remote.
 
