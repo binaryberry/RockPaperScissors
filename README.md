@@ -14,6 +14,9 @@ As usual the project was TDDed, and we were encouraged to push to Heroku regular
 
 As part of the challenge I also installed the New Relic add on to see stats about my app.
 
+
+![screenshot](https://github.com/binaryberry/RockPaperScissors/blob/master/public/screenshotCNB.png)
+
 ##The brief
 
 
@@ -50,4 +53,4 @@ What New Relic does
 =================
 New Relic provides a range of information about the performance of websites. It can measure the response time of the website, give a breakdown of response time per page, the memory usage, etc. and show the evolution of this performance over time.
 
-![image](https://github.com/binaryberry/RockPaperScissors/blob/master/NewRelic.png)
+![image](https://github.com/binaryberry/RockPaperScissors/blob/master/public/NewRelic.png)
